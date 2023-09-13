@@ -1,3 +1,6 @@
+/*
+* Use extends keyword to inherit from superclass
+* */
 public class SupermarketCustomer extends Customer{
 	private String purchase;
 
