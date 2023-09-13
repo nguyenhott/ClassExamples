@@ -1,3 +1,6 @@
+/*
+* Customer is the superclass
+* */
 class Customer{
 
 	protected String customerName;
