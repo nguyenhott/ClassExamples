@@ -7,13 +7,15 @@ class ArithmeticOperationTest {
     @Test
     void testTwoDivideTwoEqualsOne(){
         ArithmeticOperation ap = new ArithmeticOperation();
-        assertEquals(1, ap.divide(2,2));
+        double actualValue = ap.divide(2,2);
+        assertEquals(1, actualValue);
     }
 
     @Test
-    void testSixDivideThreeNotEqualsFour(){
+    void testSixDivideThreeEqualsTwo(){
         ArithmeticOperation ap = new ArithmeticOperation();
-        assertNotEquals(4, ap.divide(6,3));
+        assertEquals(2, ap.divide(6,3));
+
     }
 
     @Test

@@ -3,12 +3,12 @@ public class ArithmeticOperation {
         //System.out.println("Hello world!");
     }
 
-    public double divide(int a, int b){
-        if(b==0){
+    public double divide(double numerator, double denominator){
+        if(denominator == 0){
             throw new ArithmeticException("Denominator cannot be zero.");
         }
         else{
-            return (a/b);
+            return (numerator/denominator);
         }
     }
 }
